@@ -1,3 +1,5 @@
+//載入 body css for App_test.vue
+//import './assets/base.css'; 
 // 從 vue 載入  createApp 組件
 import { createApp } from "vue"; 
 // 載入根組件
