@@ -7,16 +7,18 @@
     <h1 style="color:#3b3b3b">
     2024全家霜淇淋新口味》藍莓霜淇淋將開賣！周末限時第二支10元
     </h1>
-    <div style="margin-bottom:20px;">
+    <div >
         <a style="color:#ff3838; 
             letter-spacing:0.7px;
             font-size: 16px;" 
                 href="https://www.storm.mg/authors/186142/%E9%A2%A8%E7%94%9F%E6%B4%BB%E7%B6%9C%E5%90%88%E5%A0%B1%E5%B0%8E">風生活綜合報導
         </a>
-        <a href=""  class="subscribe_btn">
+        <a  class="subscribe_btn" href="https://www.storm.mg/authors/186142/%E9%A2%A8%E7%94%9F%E6%B4%BB%E7%B6%9C%E5%90%88%E5%A0%B1%E5%B0%8E"  target="_blank" >
             <span> + 追蹤</span>
         </a>
-    </div>
+    </div>   
+
+    
  
     <img src="https://image.cache.storm.mg/styles/smg-800x533-fp/s3/media/image/2024/03/15/20240315-022623_U25889_M939731_a172.jpg?rbFE9hi41Hvjwg3S7iDyf4Xy0m.3hxCy&itok=7iIlT16W">
     <p class="description">
@@ -85,12 +87,32 @@
 .subscribe_btn {
     border-radius: 5px;
     min-width: 50px;
-    padding: 5px 15px;
+    padding: 5px 15px ;
     border: 1px solid #ccc;
     text-align: center;
     color: #3b3b3b;
   }
   
+.subscribe_btn:link,.subscribe_btn:visited {
+  background-color: white;
+  display: inline-block;
+}
+
+
+.subscribe_btn:hover {
+    background-color: hotpink;
+    color: white;
+    cursor:pointer;
+}
+
+.subscribe_btn:active{
+    background-color: blue;
+    color: white;
+    transform: scale(0.9);/* 縮小按鈕 */
+    cursor:wait;
+}
+
+
   .description{
       line-height: 1.3;
       margin-top: 10px;
@@ -117,5 +139,6 @@
   h2{
     color:#ff3838;
   }
+
 
 </style>
