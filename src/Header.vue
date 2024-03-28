@@ -1,5 +1,5 @@
 <script setup>
-
+    import Nav from "./Nav.vue"
 </script>
 
 <template>
@@ -42,7 +42,7 @@
                     </a>
 
                 </div>
-                <div id="main_nav_wrapper"></div>
+                <Nav></Nav>
             </div>
         </div>
     </div>
